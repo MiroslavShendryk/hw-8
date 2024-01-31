@@ -1,0 +1,32 @@
+:root { 
+    --grey-color: #808080;
+    --pink-color: #FFC0CB;
+    --yellow-color: #FFFF00;
+    --red-color:#FF0000 ;
+    --green-color: #008000;
+}
+.text-box  h3:first-child{ 
+    color: var(--pink-color);
+}
+#greycol {
+    color: var(--grey-color);
+}
+.yellow{ 
+    color: var(--yellow-color);
+}
+div ~ p {
+    color: var(--red-color);
+}
+p ~ p {
+    color: var(--green-color)
+}
+.text-box > div > p {
+    color: var(--red-color)
+}
+.title-1 { 
+    text-align: center;
+}
+.title-2 {
+    text-align: center;
+}
+
